@@ -1,4 +1,4 @@
-package com.greatlearning.transactions;
+package com.xyz.transactions;
 
 import java.util.Scanner;
 
