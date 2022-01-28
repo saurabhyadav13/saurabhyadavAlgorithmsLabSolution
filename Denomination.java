@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Denomination {
 
 	public static void mergeSort(int array[], int f, int l) {
-		// f = first; l = last;
+		
 		if (f < l) {
 
 			int mid = (f + l) / 2;
@@ -18,8 +18,8 @@ public class Denomination {
 	private static void merge(int[] array, int f, int mid, int l) {
 		int n1 = mid - f + 1;
 		int n2 = l - mid;
-		int L[] = new int[n1]; // left Array
-		int R[] = new int[n2]; // Right Array
+		int L[] = new int[n1]; 
+		int R[] = new int[n2]; 
 
 		for (int i = 0; i < n1; i++) {
 			L[i] = array[f + i];
